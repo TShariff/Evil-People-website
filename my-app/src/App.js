@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import * as React from 'react';
+import ImgMediaCard from './ImgMediaCard.js'
+import { Stack, Grid } from '@mui/material';
+import data from './data.json'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -27,6 +30,10 @@ function App() {
         </h1>
         <div class="line"></div>
       </header>
+      <body>
+        <h1 class = "imagebox">
+        </h1>
+      </body>    
     </div>
   );
 }

@@ -97,6 +97,21 @@
 
 }
 
+.imagebox{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  top: 5%;
+  border: 3px solid black;
+  padding: 5px;
+  height: 250px;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+  color: #9DBFAF;
+  text-align: right;
+  background-color: #FFFFFF;
+}
+
 .App-link {
   color: #61dafb;
 }
