@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import * as React from 'react';
-import ImgMediaCard from './ImgMediaCard.js'
-import { Stack, Grid } from '@mui/material';
+import * as react from 'react';
+import CardActionArea from './ImgMediaCard.js'
+import { Stack, Grid, Paper, Box, styled } from '@mui/material';
 import data from './data.json'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
 function App() {
   return (
     <div className="App">
@@ -33,7 +32,21 @@ function App() {
       <body>
         <h1 class = "imagebox">
         </h1>
-      </body>    
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="logo512.png" alt="Avatar" style={{width:"300px",height:"300px"}}/>
+            </div>
+
+            <div class="flip-card-back">
+              <h1>Bad People</h1> 
+              <p>Desicp</p> 
+              <p>.....</p>
+            </div>
+          </div>
+        </div>
+
+      </body>
     </div>
   );
 }
