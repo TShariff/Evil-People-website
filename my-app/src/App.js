@@ -45,7 +45,19 @@ function App() {
             </div>
           </div>
         </div>
+        <div class="flip-card2">
+          <div class="flip-card-inner2">
+            <div class="flip-card-front2">
+              <img src="logo512.png" alt="Avatar" style={{width:"300px",height:"300px"}}/>
+            </div>
 
+            <div class="flip-card-back2">
+              <h1>Moral Deli</h1> 
+              <p>Desicp</p> 
+              <p>.....</p>
+            </div>
+          </div>
+        </div>
       </body>
     </div>
   );
